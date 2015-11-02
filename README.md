@@ -5,8 +5,4 @@
      Usage: fis newproject -d
      Options:
 
-       -d, --dest <names>     release output destination
-       -w, --watch            monitor the changes of project
-       -L, --live             automatically reload your browser
-       -c, --clean            clean compile cache
-       -u, --unique           use unique compile caching
+       -d <path>     项目所在路径 如: D:/code/nodejs/6-20151102/项目名成
