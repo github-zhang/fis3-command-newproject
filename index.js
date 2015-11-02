@@ -1,4 +1,4 @@
-exports.name = 'newfile';
+exports.name = 'newproject';
 exports.desc = 'build the project structure.';
 exports.options = {
   '-h, --help': '根据structure-config.json配置文件,新建项目文档、文件结构',
