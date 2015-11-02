@@ -1,0 +1,9 @@
+{
+	"basepath" : "",
+	"dirStructure" : {
+		"js" : ["index.js"],
+		"css" : ["index.css"],
+		"img" : null,
+		"html" : ["index.html"]
+	}
+}
