@@ -19,6 +19,6 @@
     //"test": "mocha test/ut --recursive"
   },
   "dependencies": {
-    "fi3": "3.2.4"
+    //"fi3": "3.2.4"
   }
 }
