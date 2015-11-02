@@ -15,5 +15,8 @@
           fis.set('modules.commands', ['init', 'install', 'release', 'server', 'inspect','newproject']);
 
      代码，大约在107行,添加  **,'newproject'** （不修改此文件也能使用 newproject 插件，但是在命令行中输入fis3，将看不到 newproject的提示信息）
-3.   
+3.    将模块中的example文件中文件 **structure-config.json** 复制到你项目的根目录
+4.    在命令行中输入
+
+          fis newproject -d structure-config.json
    
