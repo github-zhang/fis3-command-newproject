@@ -1,3 +1,5 @@
+var path = require('path');
+
 exports.name = 'newproject';
 exports.desc = 'build the project structure.';
 exports.options = {

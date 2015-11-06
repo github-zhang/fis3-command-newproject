@@ -3,7 +3,12 @@
 	"dirStructure" : {
 		"js" : ["index.js"],
 		"css" : ["index.css"],
-		"img" : null,
+		"img" : ["*.img"],
 		"html" : ["index.html"]
+	},
+	"template":{//模版路径（可选）
+		"html":"template/h5/html/index.html",
+		"css":"template/h5/css/index.css",
+		"img":"template/h5/img/"
 	}
 }
