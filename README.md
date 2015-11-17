@@ -18,5 +18,5 @@
 3.    将模块中的example文件中文件 **structure-config.json** 复制到你项目的根目录
 4.    在命令行中输入:
 
-          fis newproject -d structure-config.json
+          fis3 newproject -d structure-config.json
    
