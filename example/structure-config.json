@@ -6,7 +6,7 @@
 		"img" : ["*.img"],
 		"html" : ["index.html"]
 	},
-	"template":{//模版路径（可选）
+	"template":{
 		"html":"template/h5/html/index.html",
 		"css":"template/h5/css/index.css",
 		"img":"template/h5/img/"
