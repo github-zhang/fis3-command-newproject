@@ -1,6 +1,6 @@
 var path = require('path');
 
-exports.name = 'newproject';
+exports.name = 'newproject -d structure-config-name.json';
 exports.desc = 'build the project structure.';
 exports.options = {
   '-h, --help': '根据structure-config.json配置文件,新建项目文档、文件结构',
