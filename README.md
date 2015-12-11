@@ -20,3 +20,15 @@
 
           fis3 newproject -d structure-config.json
    
+5.    此时在当前目录下，会生成 structure-config.json 里面配置的文件。（在默认配置里面会有 fis3-postpackager-loader，fis-optimizer-html-minifier，fis-parser-less 3个插件需要全局下载一下）
+6.    在Git Bash命令工具中输入:
+          
+          fis3 release -d output
+     
+     ![fis3 release -d output 结果](http://img2012.static.suishenyun.net/10c9e56b349eec0cf45f59e479c719ec/007379bdc7c96166ba5e1a2ad7d798e8.png!w480.jpg "fis3 release -d output 结果")
+
+     这时在output文件夹里会有发布需要的文件。如果是需要的是测试版本，则可以运行 
+
+          fis3 release -d output prod
+
+     此时output文件夹里面的文件只有css、js、img文件被压缩了，html没有被压缩，具体的情况可以根据自己的需求修改配置文件 fis-conf.js
