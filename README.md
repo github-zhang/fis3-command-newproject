@@ -13,7 +13,7 @@
 2.    在fis3/lib/cli.js 文件中，找到
 
           fis.set('modules.commands', ['init', 'install', 'release', 'server', 'inspect','newproject']);
-
+          
      代码，大约在107行,添加  **,'newproject'** （不修改此文件也能使用 newproject 插件，但是在命令行中输入fis3，将看不到 newproject的提示信息）
 3.    将模块中的example文件中文件 **structure-config.json** 复制到你项目的根目录
 4.    在命令行中输入:
@@ -32,3 +32,9 @@
           fis3 release -d output prod
 
      此时output文件夹里面的文件只有css、js、img文件被压缩了，html没有被压缩，具体的情况可以根据自己的需求修改配置文件 fis-conf.js
+     
+     开发工具的目的是为了：使用一些公用css和html5 模版和规范，优化图片，压缩css,js,html。
+     通过一些fis3插件功能还能：
+          1.自动合并图片，生成雪碧图；
+          2.将图片生成base64代码
+          
