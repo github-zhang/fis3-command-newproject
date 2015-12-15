@@ -20,7 +20,7 @@
 
           fis3 newproject -d structure-config.json
    
-5.    此时在当前目录下，会生成 structure-config.json 里面配置的文件。（在默认配置里面会有 fis3-postpackager-loader，fis-optimizer-html-minifier，fis-parser-less 3个插件需要全局下载一下）
+5.    此时在当前目录下，会生成 structure-config.json 里面配置的文件。（在默认配置里面会有 fis3-postpackager-loader，fis-optimizer-html-minifier，fis-parser-less(fis-parser-node-sass) 3个插件需要全局下载一下）
 6.    在Git Bash命令工具中输入:
           
           fis3 release -d output
