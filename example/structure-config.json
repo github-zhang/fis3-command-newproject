@@ -1,0 +1,16 @@
+{
+	"basepath" : "",
+	"dirStructure" : {
+		"js" : ["index.js"],
+		"css" : ["index.css"],
+		"img" : ["*.img"],
+		"html" : ["index.html"],
+		"currentdir":["map.json","fis-conf"]
+	},
+	"template":{//模版路径（可选）
+		"html":"template/h5/html/index.html",
+		"css":"template/h5/css/index.css",
+		"img":"template/h5/img/",
+		"fis-conf":"template/h5/"
+	}
+}
