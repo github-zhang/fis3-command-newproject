@@ -13,6 +13,16 @@ fis.match('*.css', {
   optimizer: fis.plugin('clean-css')
 });
 
+fis.match('*.scss', {
+  // fis-parser-node-sass 插件进行解析
+  parser: fis.plugin('node-sass', {
+    // options... 
+  }),
+  // .less 文件后缀构建后被改成 .css 文件
+  rExt: '.css',
+  useHash: true
+});
+
 fis.match('*.html', {
 	// fis-optimizer-html-minifier 插件进行压缩，需下载
   optimizer: fis.plugin('html-minifier',{

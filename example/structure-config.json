@@ -5,11 +5,12 @@
 		"css" : ["index.css"],
 		"img" : ["*.img"],
 		"html" : ["index.html"],
-		"currentdir":["map.json","fis-conf"]
+		"currentdir":["map.json","fis-conf.js"]
 	},
-	"template":{//模版路径（可选）
-		"html":"template/h5/html/index.html",
-		"css":"template/h5/css/index.css",
+	"template":{
+		"html":"template/h5/html/",
+		"js":"template/h5/js/",
+		"css":"template/h5/css/",
 		"img":"template/h5/img/",
 		"fis-conf":"template/h5/"
 	}
