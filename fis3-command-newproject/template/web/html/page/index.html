@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+	<link rel="import" href="../common/head.html?__inline">
+	<body>
+		<link rel="import" href="../common/header.html?__inline">
+		<link rel="import" href="../common/nav.html?__inline">
+		
+		<link rel="import" href="index/main.html?__inline">
+		
+		<link rel="import" href="../common/aside.html?__inline">
+		<link rel="import" href="../common/footer.html?__inline">
+			
+		<script src="../../js/nodetpl.client.min.js"></script>
+		<script src="../../js/jquery-1.10.2.js"></script>
+		
+		<script id="testid" type="text/template">
+			<h1><?=title?></h1>
+			<ul>
+			  <?for(var i=0; i<favor.length; i++){?>
+			    <li><?=i?>：<?=favor[i]?></li>
+			  <?}?>
+			</ul>
+		</script>
+		<script id="favor-tpl" type="text/template">
+			<style>
+			  h1 {
+			    font-size: 20px;
+			    color: #f00;
+			  }
+			  p {
+			    text-indent: 2em;
+			  }
+			</style>
+			<div id="$ROOT">
+			  <h1><?=title?></h1>
+			  <?for(var i=0; i<10; i++){?>
+			    <p>hello, world, 第 <?=i?> 次</p>
+			  <?}?>
+			</div>
+		</script>
+		
+		<script type="text/javascript">
+			var data = {
+			  "title": "个人爱好",
+			  "favor": ["足球", "篮球", "乒乓球", "琉璃球"]
+			};
+			var content = document.getElementById('testid').innerHTML;
+			nodetpl.render(content, data, function(d){
+				console.log(d);
+				document.getElementById('test').innerHTML = d;
+			});
+			nodetpl.render($('#favor-tpl').html(), data, function(d){
+				 $('#test').append(d);
+				 console.log(d);
+			});
+		</script>
+	</body>
+</html>

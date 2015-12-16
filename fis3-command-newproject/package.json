@@ -1,0 +1,24 @@
+{
+  "name": "fis3-command-newproject",
+  "description": "fis newproject command.",
+  "version": "1.0.0",
+  "author": "weiyilong",
+  "homepage": "https://github.com/github-zhang",
+  "keywords": [
+    "fis","newproject"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/github-zhang/fis3-command-newproject"
+  },
+  "engines": {
+    "node": ">= 0.12.4"
+  },
+  //"main": "index.js",
+  "scripts": {
+    //"test": "mocha test/ut --recursive"
+  },
+  "dependencies": {
+    //"fi3": "3.2.4"
+  }
+}

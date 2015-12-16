@@ -1,0 +1,19 @@
+﻿{
+	"basepath" : "",
+	"dirStructure" : {
+		"js" : ["index.js","jquery-1.10.2.js","nodetpl.client.min.js"],
+		"css" : ["index.css","test1.scss","test2.scss"],
+		"img" : ["*.img"],
+		"html" : ["common/aside.html","common/footer.html",
+					"common/head.html","common/header.html","common/head-style.html"
+					,"common/nav.html","page/index.html","page/index/main.html"],
+		"currentdir":["map.json","fis-conf.js"]
+	},
+	"template" : {
+		"html":"template/web/html/",
+		"css":"template/web/css/",
+		"js":"template/web/js/",
+		"img":"template/web/img/",
+		"fis-conf":"template/web/"
+	}
+}
